@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+    }
+    button {
+      width: 100%;
+      margin: 5px 0;
+      padding: 8px;
+      cursor: pointer;
+      border: none;
+      border-radius: 4px;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 14px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    .title {
+      text-align: center;
+      margin-bottom: 15px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h2 class="title">DeepSeek 对话导出</h2>
+  <button id="exportPDF">导出为 PDF</button>
+  <button id="exportPNG">导出为 PNG</button>
+  <button id="sendEmail">通过邮件发送</button>
+  <script src="popup.js"></script>
+</body>
+</html>
